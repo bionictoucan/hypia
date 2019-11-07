@@ -1,4 +1,4 @@
-import functionals as F
+from . import functionals as F
 
 class Compose:
     '''
@@ -203,8 +203,8 @@ class Shear:
 
     .. math::
         S = \\begin{pmatrix}
-               1 & -\sin \\beta & 0 \\
-               0 & \cos \\beta & 0 \\
+               1 & -\sin \\beta & 0 \n
+               0 & \cos \\beta & 0 \n
                0 & 0 & 1
             \end{pmatrix}
 
@@ -234,8 +234,8 @@ class AffineTransform:
 
     .. math::
         A = \\begin{pmatrix}
-               s_{x} \cos \\theta & - s_{y} \sin (\\theta + \\beta) & T_{x} \\
-               s_{x} \sin \\theta & s_{y} \cos (\\theta + \\beta) & T_{y} \\
+               s_{x} \cos \\theta & - s_{y} \sin (\\theta + \\beta) & T_{x} \n
+               s_{x} \sin \\theta & s_{y} \cos (\\theta + \\beta) & T_{y} \n
                0 & 0 & 1
             \\end{pmatrix}
 
