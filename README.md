@@ -28,4 +28,4 @@ From GitHub:
 
 ### Documentation
 
-The documentation (including examples) is available [here](https://hypia.readthedocs.io/en/latest/).
+The documentation (including examples) is available [here](https://rhero12.github.io/hypia/).
