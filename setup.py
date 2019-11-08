@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="hypia",
-    version="0.0.1",
+    version="0.0.2",
     author="John Armstrong",
     author_email="j.armstrong.2@research.gla.ac.uk",
     description="A package for doing hyper-spectral image augmentation for deep learning.",
